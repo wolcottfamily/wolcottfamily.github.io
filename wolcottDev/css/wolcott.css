@@ -1,0 +1,119 @@
+body {
+	-webkit-text-size-adjust: 100%;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 120%;
+	color: black;
+	background-color: #FFFFCC;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+	
+a:visited {
+	text-decoration: none;
+}
+	
+a:active {
+	text-decoration: none;
+}
+	
+a:hover {
+	text-decoration: underline;
+}
+	
+.style1 {
+	font-family: "Times New Roman", Times, serif;
+}
+	
+.style2 {
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+
+h5 {
+	text-align:center;
+}
+
+#parentDivID {
+  //border: 1px solid red;
+  margin-right: 10px;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+#backToHomepage {
+   background-image: url('/gif/backhome1.gif');
+   height: 79px;
+   width: 87px;
+}
+
+#backToHomepage:hover {
+   background-image: url('/gif/backhome2.gif');
+}
+
+.childDiv1 {
+	height:100px;
+  float: center;
+  margin-right: 5px;
+}
+
+.childDiv2 {
+	max-width: 1200px;
+  float: center;
+  margin-right: 5px;
+}
+
+.marginsOnDiv {
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom:20px;
+}
+
+.descendantDiv {
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom:20px;
+}
+
+table, th, td {text-align:left;}
+table {width:50%;margin:auto;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+li {
+  margin: 5px;
+}
+
+hr.thick {
+	height: 6px;
+	width: 80%;
+	background-color: red;
+}
+
+.footer {
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align:center;
+}
