@@ -97,6 +97,14 @@ h5 {
 	margin-bottom:20px;
 }
 
+.onePerson {
+margin-top:20px;
+}
+
+.marriage {
+margin:0px;
+}
+
 table, th, td {text-align:left;}
 table {width:50%;margin:auto;}
 tr:nth-child(even) {background-color: #f2f2f2;}
