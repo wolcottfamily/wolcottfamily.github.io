@@ -4,10 +4,10 @@ body {
 	font-size: 120%;
 	color: black;
 	background-color: #FFFFCC;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
+	-moz-user-select: text;
+	-khtml-user-select: text;
+	-webkit-user-select: text;
+	user-select: text;
 }
 
 a:link {
@@ -97,15 +97,15 @@ h5 {
 	margin-bottom:20px;
 }
 
+.onePerson { margin-top:10px; } 
+.detailsPerson { padding-top:10px; padding-left:17px; } 
+.detailsNote { padding-top:0px; padding-left:17px; } 
+.marriage { margin:0px; } 
+.subtree { margin:0px; } 
+.children { margin:0px; }
 .onePerson {
 margin-top:20px;
 }
-
-.marriage {
-margin:0px;
-}
-.onePerson { margin-top:20px; } .marriage { margin:0px; } details { padding-left:17px; }
-
 
 table, th, td {text-align:left;}
 table {width:50%;margin:auto;}
