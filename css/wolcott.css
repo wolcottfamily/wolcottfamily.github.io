@@ -96,16 +96,72 @@ h5 {
 	margin: auto;
 	margin-bottom:20px;
 }
-
-.onePerson { margin-top:10px; } 
-.detailsPerson { padding-top:10px; padding-left:17px; } 
-.detailsNote { padding-top:0px; padding-left:17px; } 
-.marriage { margin:0px; } 
-.subtree { margin:0px; } 
-.children { margin:0px; }
-.onePerson {
-margin-top:20px;
+/* Generated HTML */
+.htmlRemarks {
+border: 2px solid black;
+max-width: 1200px;
+margin: auto;
+padding: 20px;
 }
+
+.htmlPeople {
+max-width: 1200px;
+margin: auto;
+}
+
+.onePerson {
+margin-top:17px;
+}
+
+.detailsPerson {
+padding-top:0px;
+padding-left:17px;
+padding-bottom:10px;
+}
+
+.detailsNote {
+padding-top:0px;
+padding-left:17px;
+}
+
+.marriage {
+margin:0px;
+}
+
+.subtree {
+margin:0px;
+}
+
+.children {
+margin:0px;
+}
+/* End Generated HTML */
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
 
 table, th, td {text-align:left;}
 table {width:50%;margin:auto;}
